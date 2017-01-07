@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  padding: 10px
+}
+
+.nav {
+  height: 16vh;
+  margin: 10px;
+}
+
+.box {
+  height: 100%;
+  width: calc(33% - 20px);
+  float: left;
+  margin: 10px;
+}
+
+.red {
+  background-color: #D0021B;
+}
+
+.blue {
+  background-color: #4A90E2;
+}
+
+.grey {
+  background-color: #4A4A4A;
+}
+
+.bigBox {
+  height: 34vh;
+  margin: 10px;
+}
+
+.top {
+  padding: 20px 0px;
+}
+
+.bottom {
+
+}
+
+p {
+  overflow: hidden;
+}
+
+.right {
+  float: right;
+  height: 100%;
+  width: 30%;
+}
+
+.left {
+  height: 100%;
+  width: 30%;
+  float: left;
+}
+
+.center {
+  margin: auto;
+  height: 100%;
+  width: 80%;
+}
